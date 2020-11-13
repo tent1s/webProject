@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="img/logo.png" type="img/png">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pikadu - Главная</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+ <div class="header-wrapper">
+     <a href="index.html" class="header-logo"><img class="header-logo-image" src="img/logo.png" alt="logo: Pikadu"></a>
+        <nav class="header-nav">
+            <ul class="header-menu">
+                <li class="header-menu-item"><a href="#" class="header-menu-link">ГОРЯЧЕЕ</a></li>
+                <li class="header-menu-item"><a href="#" class="header-menu-link">ЛУЧШЕЕ</a></li>
+                <li class="header-menu-item"><a href="#" class="header-menu-link">СВЕЖЕЕ</a></li>
+                <li class="header-menu-item"><a href="#" class="header-menu-link">ПОДПИСКИ</a></li>
+                <li class="header-menu-item"><a href="#" class="header-menu-link">СООБЩЕСТВА</a></li>
+            </ul>
+        </nav>
+     <div class="input-group search">
+         <input type="search" class="search-input" placeholder="Поиск">
+         <button class="search-button">
+             <img src="img/search.svg" alt="icon: search" class="search-icon ">
+         </button>
+     </div>
+     <a href="#" class="menu-toggle" id="menu-toggle">
+         <span></span>
+         <span></span>
+         <span></span>
+     </a>
+ </div>
+</header>
+
+<div class="content">
+    <main class="posts">
+        <section class="post">
+            <div class="post-body">
+            <h2 class="post-title">Заголовок поста</h2>
+                <p class="post-text">Равным образом, укрепление и развитие внутренней структуры в значительной степени обусловливает важность распределения внутренних резервов и ресурсов. Но диаграммы связей, превозмогая сложившуюся непростую экономическую ситуацию, ограничены исключительно образом мышления. Лишь сторонники тоталитаризма в науке неоднозначны и будут ограничены исключительно образом мышления.</p>
+                <p class="post-text">А ещё сделанные на базе интернет-аналитики выводы ограничены исключительно образом мышления. Но экономическая повестка сегодняшнего дня предполагает независимые способы реализации кластеризации усилий.</p>
+                <div class="tags">
+                    <a href="#" class="tag">#свежее</a>
+                    <a href="#" class="tag">#горечее</a>
+                    <a href="#" class="tag">#мое</a>
+                    <a href="#" class="tag">#случайность</a>
+                </div>
+            </div>
+            <div class="post-footer">
+                <div class="post-buttons">
+                    <button class="post-button likes">
+                        <svg width="19" height="20" class="icon icon-like">
+                            <use xlink:href="img/icons.svg#like"></use>
+                        </svg>
+                        <span class="likes-counter">126</span>
+                    </button>
+                    <button class="post-button comments">
+                        <svg width="21" height="21" class="icon icon-comments">
+                            <use xlink:href="img/icons.svg#coments"></use>
+                        </svg>
+                        <span class="comments-counter">257</span>
+                    </button>
+                    <button class="post-button save">
+                        <svg width="19" height="19" class="icon icon-save">
+                            <use xlink:href="img/icons.svg#save"></use>
+                        </svg>
+                    </button>
+                    <button class="post-button share">
+                        <svg width="17" height="19" class="icon icon-share">
+                            <use xlink:href="img/icons.svg#share"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="post-author">
+                    <div class="author-about">
+                        <a href="#" class="author-username">Svetlana</a>
+                        <span class="post-time">15 мин назад</span>
+                    </div>
+                    <a href="" class="author-link"><img src="img/avatar.jpg" alt="avatar" class="author-avatar"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <form action="#" class="add-post">
+        <input type="text" name="title" class="add-title" placeholder="Заголовок поста">
+        <textarea name="text" class="add-text" placeholder="Текст вашего поста"></textarea>
+        <input type="text" name="tags" class="add-tags" placeholder="Добавьте теги через запятую!">
+        <add class="add-buttons">
+            <button type="submit" class="button add-button">
+                <svg class="icon icon-fire">
+                    <use xlink:href="img/icons.svg#fire"></use>
+                </svg>
+                Опубликовать пост</button>
+            <button class="button button-outline">
+                </svg><svg class="icon icon-video">
+                <use xlink:href="img/icons.svg#video"></use>
+            </svg>
+                Видео
+            </button>
+            <button class="button button-outline">
+                </svg><svg class="icon icon-photo">
+                <use xlink:href="img/icons.svg#photo"></use>
+            </svg>
+                Фото
+            </button>
+        </add>
+    </form>
+    <aside class="sidebar">
+        <div class="login">
+            <form class="login-form">
+                <h2 class="login-title">Авторизация</h2>
+                <input type="email" class="login-input login-email" name="email" minlength="3" required placeholder="Введите email">
+                <input type="password" class="login-input login-password" name="password" minlength="3" required placeholder="Введите пароль">
+                <a href="#" class="login-forget">Забыли пароль?</a>
+                <button class="login-signin" type="submit">Войти</button>
+                <a href="" class="login-signup">Регистрация</a>
+            </form>
+        </div>
+        <div class="user">
+            <div class="user-container">
+                <a href="#" class="user-info">
+                    <img width="40px" height="40px" src="img/avatar.jpg" alt="photo: user" class="user-avatar">
+                    <span class="user-name">Svetlana</span>
+                </a>
+                <a href="#" class="edit">
+                    <img src="img/settings.svg" alt="редактировать" class="icon icon-edit">
+                </a>
+                <a href="Guest-index.html" class="exit">
+                    <svg class="icon icon-exit">
+                        <use xlink:href="img/icons.svg#exit"></use>
+                    </svg>
+                </a>
+            </div>
+            <form class="edit-container">
+                <h2 class="edit-title">Редактировать</h2>
+                <label class="edit-label">Ваш логин
+                    <input type="text"
+                           class="edit-input edit-username"
+                           name="username"
+                           minlength="3"
+                           placeholder="логин"
+                           required
+                    >Ваше фото
+                    <input type="text"
+                           class="edit-input edit-photo"
+                           name="photo"
+                           placeholder="url-photo"
+                    >
+                    <button class="edit-btn">Сохранить</button>
+                </label>
+            </form>
+        </div>
+        <nav class="sidebar-nav">
+            <ul class="sidebar-menu">
+                <li class="sidebar-menu-item">
+                    <a href="#" class="sidebar-menu-link">Ответы</a>
+                </li>
+                <li class="sidebar-menu-item">
+                    <a href="#" class="sidebar-menu-link">Комментарии</a>
+                </li>
+                <li class="sidebar-menu-item">
+                    <a href="#" class="sidebar-menu-link active">Оценки</a>
+                </li>
+                <li class="sidebar-menu-item">
+                    <a href="#" class="sidebar-menu-link">Сохраненное</a>
+                </li>
+                <li class="sidebar-menu-item">
+                    <a href="#" class="sidebar-menu-link">Подписки</a>
+                </li>
+                <li class="sidebar-menu-item">
+                    <a href="#" class="sidebar-menu-link">Заметки</a>
+                </li>
+                <li class="sidebar-menu-item">
+                    <a href="#" class="sidebar-menu-link">Игнор-лист</a>
+                </li>
+            </ul>
+        </nav>
+        <a href="new-post.html" class="button button-new-post">
+            <svg class="icon icon-fire">
+                <use xlink:href="img/icons.svg#fire"></use>
+            </svg>
+            Опубликовать пост
+        </a>
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">Комментарий дня</h2>
+            </div>
+            <div class="card-body">
+                <a href="#" class="card-body-title">Worms</a>
+                <p class="card-text">До конца 2020 года оставалось только два месяца...</p>
+            </div>
+        </div>
+        <a href="https://www.activeoo.com/banner/" class="promo"></a>
+    </aside>
+
+</div>
+</body>
+
+</html>
