@@ -429,7 +429,7 @@ body{
 .promo{
     display: block;
     background-color: #ffffff;
-    background-image: url("../img/promo.JPG");
+    background-image: url("../img/promo.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
