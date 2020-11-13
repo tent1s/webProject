@@ -1,17 +1,6 @@
 let menuToggle = document.querySelector('#menu-toggle');
 let menu = document.querySelector('.sidebar');
 
-
-const btn = document.querySelector('.post-button');
-
-let like = true,
-    likeCount = document.querySelector('.likes-counter').innerHTML;
-
-btn.addEventListener('click', () => {
-    likeCount = like ? ++likeCount : --likeCount;
-    like = !like;
-    document.querySelector('.likes-counter').innerHTML = likeCount;
-});
 const regExpValidEmail = /^\w+@\w\.\w{2,}$/;
 
 const loginElem= document.querySelector(    '.login');

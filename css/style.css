@@ -499,6 +499,12 @@ body{
     margin-right: 12px;
 }
 @media (max-width: 990px){
+    .tags{
+        word-wrap: break-word;
+    }
+    .add-post{
+        width: 100%;
+    }
     .menu-toggle{
         display: flex;
         flex-direction: column;
@@ -554,6 +560,7 @@ body{
     }
 }
 @media (max-width: 576px) {
+
     .post-footer{
         flex-direction: column;
     }
