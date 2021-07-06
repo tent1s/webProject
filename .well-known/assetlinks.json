@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "ru.redcom.app",
+    "sha256_cert_fingerprints":
+    ["31:BC:9F:80:6D:B5:7A:61:8C:FE:D2:3B:E8:67:E2:8C:32:98:0C:C2:C8:F3:2C:D8:7C:1C:9B:6C:16:2E:03:5D"]
+  }
+}]
